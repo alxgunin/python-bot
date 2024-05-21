@@ -6,7 +6,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import ReplyKeyboardRemove
 from datetime import datetime
 
-api_token = '6175498507:AAFXPi7slq-buPQ0vjlExHBncOuLtMWwsrE'
+api_token = 'your_token_here'
 bot = Bot(token=api_token)
 dp = Dispatcher(bot=bot)
 mode = "default"
